@@ -25,21 +25,22 @@ export default function Home() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img src="./assets/home/insta.png" alt="logo Instagram" />
+          <img src="./assets/Home/insta.png" alt="logo Instagram" />
         </a>
         <a
           href="https://github.com/JeannePacard"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img src="./assets/home/github.png" alt="logo Github" />
+          <img src="./assets/Home/github.png" alt="logo Github" />
         </a>
+
         <a
           href="https://www.linkedin.com/in/jeanne-pacard-flammini/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img src="./assets/home/linkedin.png" alt="logo LinkedIn" />
+          <img src="./assets/Home/linkedin.png" alt="logo LinkedIn" />
         </a>
       </div>
     </>
