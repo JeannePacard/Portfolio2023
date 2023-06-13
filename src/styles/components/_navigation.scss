@@ -1,0 +1,90 @@
+header {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__button {
+  z-index: 5;
+  display: block;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: $red;
+  border: 0;
+  cursor: pointer;
+  position: absolute;
+  right: 30px;
+  top: 30px;
+  outline: none;
+}
+
+.button-active {
+  background-color: $black;
+}
+
+.header__nav {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+
+  visibility: hidden;
+  display: flex;
+  flex-direction: row;
+  background-color: $red;
+  position: fixed;
+  overflow: hidden;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  padding: 40px 30px;
+  justify-content: space-between;
+  background-image: url("../../../public/assets/Menu/wave_1.png");
+  background-repeat: no-repeat;
+  background-position: 75% 50%;
+  background-size: 80vh;
+}
+
+.header__nav.active {
+  color: white;
+  text-decoration: none;
+  visibility: visible;
+  background-color: $red;
+  opacity: 1;
+
+  a {
+    text-decoration: none;
+  }
+}
+
+.header__menu {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  list-style-type: none;
+  padding: 0;
+}
+
+.header__menu-item {
+  font-family: "title";
+  margin-left: 10%;
+  font-size: 13vh;
+  color: white;
+  text-decoration: none;
+  &:hover {
+    font-family: "title-italic";
+  }
+}
+
+.header__menu-item:not(:last-of-type) {
+  margin-bottom: 0.1em;
+}
+
+@media screen and (max-width: 1000px) {
+  .header__menu-item {
+    font-size: 9vh;
+  }
+}
