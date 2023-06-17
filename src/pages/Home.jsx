@@ -11,7 +11,6 @@ export default function Home() {
           </h1>
         </div>
         <div className="description">
-          <hr />
           <p>
             Hi, I’m <span>Jeanne</span>, a web development student with a
             passion for graphic design, cinema, video games and sport. <br />I
