@@ -19,19 +19,19 @@ const Header = () => {
           onClick={toggleNav}
         ></button>
         <nav className={`header__nav nav-js ${isNavOpen ? "active" : ""}`}>
-          <ul class="header__menu">
+          <ul className="header__menu">
             <NavLink to="/">
-              <li class="header__menu-item" onClick={toggleNav}>
+              <li className="header__menu-item" onClick={toggleNav}>
                 home
               </li>
             </NavLink>
             <NavLink to="/works">
-              <li class="header__menu-item" onClick={toggleNav}>
+              <li className="header__menu-item" onClick={toggleNav}>
                 works
               </li>
             </NavLink>
             <NavLink to="/contact">
-              <li class="header__menu-item" onClick={toggleNav}>
+              <li className="header__menu-item" onClick={toggleNav}>
                 contact
               </li>
             </NavLink>

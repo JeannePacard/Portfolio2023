@@ -19,7 +19,7 @@ function Slider() {
             <img src="./assets/Works/cattravel.png" alt="site web" />
             <h1>assurever</h1>
             <p>
-              language : React <br /> role : developer
+              techno : React <br /> role : developer
             </p>
             <a
               href="https://test-site-assurever-git-master-jeannepacard.vercel.app"
@@ -33,7 +33,7 @@ function Slider() {
             <img src="./assets/Works/cattravel.png" alt="site web" />
             <h1>around the world</h1>
             <p>
-              language : HTML / CSS / JS <br /> role : designer, developer
+              techno : HTML / CSS / JS <br /> role : designer, developer
             </p>
             <a
               href="https://jeannepacard.github.io/cattravel/"
@@ -47,7 +47,7 @@ function Slider() {
             <img src="./assets/Works/sisi.png" alt="site web" />
             <h1>portfolio</h1>
             <p>
-              language : HTML / CSS <br /> role : developer
+              techno : HTML / CSS <br /> role : developer
             </p>
             <a
               href="https://sirinebenamour.github.io/portfolio/"
@@ -61,7 +61,7 @@ function Slider() {
             <img src="./assets/Works/seo.png" alt="site web" />
             <h1>escape game</h1>
             <p>
-              language : HTML / CSS / JS <br /> role : designer, developer
+              techno : HTML / CSS / JS <br /> role : designer, developer
             </p>
             <a
               href="https://jeannepacard.github.io/cattravel/"
@@ -77,7 +77,7 @@ function Slider() {
               zurg<span>'</span>s revenge
             </h1>
             <p>
-              language : JS <br /> role : designer, animator, developer
+              techno : JS <br /> role : designer, animator, developer
             </p>
             <a
               href="https://jeannepacard.github.io/LaRevancheDeZurg/"
@@ -91,7 +91,7 @@ function Slider() {
             <img src="./assets/Works/isis.png" alt="site web" />
             <h1>isis</h1>
             <p>
-              language : HTML / CSS / JS <br /> role : designer, developer
+              techno : HTML / CSS / JS <br /> role : designer, developer
             </p>
             <a
               href="https://jeannepacard.github.io/SiteIsis/"
@@ -105,7 +105,7 @@ function Slider() {
             <img src="./assets/Works/krunks.png" alt="site web" />
             <h1>portfolio</h1>
             <p>
-              language : HTML / CSS <br /> role : developer
+              techno : HTML / CSS <br /> role : developer
             </p>
             <a
               href="https://kylian-brun.vercel.app"
@@ -119,7 +119,7 @@ function Slider() {
             <img src="./assets/Works/lena.png" alt="site web" />
             <h1>portfolio</h1>
             <p>
-              language : HTML / CSS <br /> role : developer
+              techno : HTML / CSS <br /> role : developer
             </p>
             <a
               href="https://lenabrincat.github.io/lenabrincatportfolio/"
