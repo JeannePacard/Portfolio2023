@@ -12,9 +12,10 @@ export default function Home() {
         </div>
         <div className="description">
           <p>
-            Hi, I’m <span>Jeanne</span>, a web development student with a
+            Hi, I’m <span>Jeanne</span>, a frontend developer student with a
             passion for graphic design, cinema, video games and sport. <br />I
-            am looking for an apprenticeship for 2023-2024.
+            am looking for an apprenticeship for 2023-2024. I mainly develop in
+            react and scss but I'm open to discovering new languages.
           </p>
         </div>
       </div>
