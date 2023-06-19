@@ -6,7 +6,7 @@ export default function Home() {
       <div className="background-wave">
         <div className="title">
           <h1>
-            fontend <br />
+            frontend <br />
             developer
           </h1>
         </div>
