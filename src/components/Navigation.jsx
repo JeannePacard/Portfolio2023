@@ -17,7 +17,9 @@ const Header = () => {
           }`}
           type="button"
           onClick={toggleNav}
-        ></button>
+        >
+          <p>menu</p>
+        </button>
         <nav className={`header__nav nav-js ${isNavOpen ? "active" : ""}`}>
           <ul className="header__menu">
             <NavLink to="/">

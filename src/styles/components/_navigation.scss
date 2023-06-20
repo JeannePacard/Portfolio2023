@@ -18,10 +18,19 @@ header {
   right: 30px;
   top: 30px;
   outline: none;
+  p {
+    color: $red-span;
+    position: absolute;
+    right: 60px;
+    top: 15px;
+  }
 }
 
 .button-active {
   background-color: $black;
+  p {
+    color: $black;
+  }
 }
 
 .header__nav {

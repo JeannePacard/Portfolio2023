@@ -11,7 +11,6 @@ const Layout = ({ children }) => {
   useEffect(() => {
     const bigBall = bigBallRef.current;
     const smallBall = smallBallRef.current;
-    const hoverables = hoverablesRef.current;
 
     // Move the cursor
     function onMouseMove(e) {
@@ -40,18 +39,9 @@ const Layout = ({ children }) => {
 
     // Listeners
     document.body.addEventListener("mousemove", onMouseMove);
-    hoverables.forEach((element) => {
-      element.addEventListener("mouseenter", onMouseHover);
-      element.addEventListener("mouseleave", onMouseHoverOut);
-    });
-
     return () => {
       // Clean up event listeners
       document.body.removeEventListener("mousemove", onMouseMove);
-      hoverables.forEach((element) => {
-        element.removeEventListener("mouseenter", onMouseHover);
-        element.removeEventListener("mouseleave", onMouseHoverOut);
-      });
     };
   }, []);
 

@@ -26,7 +26,7 @@ function Slider() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              view more
+              visit project
             </a>
           </div>
           <div className="card-panel">
@@ -40,7 +40,7 @@ function Slider() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              view more
+              visit project
             </a>
           </div>
           <div className="card-panel">
@@ -54,7 +54,7 @@ function Slider() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              view more
+              visit project
             </a>
           </div>
           <div className="card-panel">
@@ -68,7 +68,7 @@ function Slider() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              view more
+              visit project
             </a>
           </div>
           <div className="card-panel">
@@ -84,7 +84,7 @@ function Slider() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              view more
+              visit project
             </a>
           </div>
           <div className="card-panel">
@@ -98,7 +98,7 @@ function Slider() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              view more
+              visit project
             </a>
           </div>
           <div className="card-panel">
@@ -112,7 +112,7 @@ function Slider() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              view more
+              visit project
             </a>
           </div>
           <div className="card-panel">
@@ -126,7 +126,7 @@ function Slider() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              view more
+              visit project
             </a>
           </div>
         </Flicking>
