@@ -16,7 +16,7 @@ function Slider() {
       <div className="flicking-camera">
         <Flicking ref={flickingRef} circular={true}>
           <div className="card-panel">
-            <img src="./assets/Works/cattravel.png" alt="site web" />
+            <img src="./assets/Works/assurever.png" alt="site web" />
             <h1>assurever</h1>
             <p>
               techno : React <br /> role : developer
